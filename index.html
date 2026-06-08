@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Nisa Salsabilla</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:pink;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#4f46e5;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:pink;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#4f46e5;
+    margin-bottom:10px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.project{
+    background:pink;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.project img{
+    width:100%;
+    height:220px;
+    object-fit:pic.5jpg;
+}
+
+.project h3{
+    padding:15px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#4f46e5;
+    color:pink;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:pink;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <!-- Ganti foto-profil.jpg dengan nama foto kamu -->
+    <img src="pic1.jpg" alt="Foto Profil" class="profile">
+
+    <h1>Nisa Salsabilla</h1>
+    <p>Pelajar SMK Jurusan Desain Komunikasi Visual</p>
+    <p>Graphic Designer • Photographer • Videographer</p>
+
+</header>
+
+<section>
+    <h2 class="title">Tentang Saya</h2>
+
+    <div class="about">
+        Saya adalah pelajar SMK jurusan Desain Komunikasi Visual (DKV)
+        yang memiliki minat dan kemampuan dalam bidang desain grafis,
+        fotografi, dan videografi. Saya senang menciptakan karya visual
+        yang kreatif, komunikatif, dan menarik untuk berbagai media digital.
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Keahlian</h2>
+
+    <div class="skills">
+
+        <div class="card">
+            <h3>🎨 Desain Grafis</h3>
+            <p>Membuat poster, branding, konten media sosial, banner, dan desain promosi.</p>
+        </div>
+
+        <div class="card">
+            <h3>📸 Photography</h3>
+            <p>Fotografi produk, portrait, landscape, dan dokumentasi acara.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎬 Videography</h3>
+            <p>Pengambilan video, editing video, cinematic video, dan reels.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Portofolio</h2>
+
+    <div class="portfolio">
+
+        <div class="project">
+            <img src="pic5.jpg" alt="">
+            <h3>Desain Poster Promosi</h3>
+        </div>
+
+        <div class="project">
+            <img src="pic6.jpg" alt="">
+            <h3>Fotografi Landscape</h3>
+        </div>
+
+        <div class="project">
+            <img src="mp1.mp" alt="">
+            <h3>Proyek Videografi</h3>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Software yang Dikuasai</h2>
+
+    <div class="skills">
+
+        <div class="card">
+            <h3>CorelDRAW</h3>
+        </div>
+
+        <div class="card">
+            <h3>Adobe Photoshop</h3>
+        </div>
+
+        <div class="card">
+            <h3>Canva</h3>
+        </div>
+
+        <div class="card">
+            <h3>CapCut</h3>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Kontak</h2>
+
+    <div class="contact">
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Email</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Portofolio Nisa Salsabilla | DKV Student
+</footer>
+
+</body>
+</html>
